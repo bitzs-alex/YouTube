@@ -22,6 +22,7 @@ using namespace std;
  *      Relational Operators
  *      Logical Operators
  *      Bitwise Operators
+ *      Conditional/Ternary Operator
  *      Increment/Decrement Operators
  * 
  * Operators further classified into two
@@ -88,6 +89,7 @@ int main() {
     cout << "(c == b) || (c > b) is " << ((c == b) || (c > b)) << endl;
     cout << "!(c == d) is " << !(c == d) << endl;
     cout << "!(c == c) is " << !(c == c) << endl;
+    // && and || operates in a short way
 
     // Bitwise Operators
     // =====================
@@ -100,6 +102,13 @@ int main() {
     cout << a << " >> " << b << " is " << (a >> b) << endl;
     cout << a << " << " << b << " is " << (a << b)  << endl;
 
+    // Conditional/Ternary Operator
+    // =================================
+    // takes three operand, it's just like if-else
+    cout << "Is a (" << a << ") even : " << (a % 2 == 0 ? "Yes" : "No") << endl;
+    a = a > 9 ? a << 1 : a >> 2;
+    cout << "New a value : " << endl;
+
     // Increment and Decrement Operators
     // =================================
     // Add one to the variable
@@ -109,9 +118,25 @@ int main() {
     cout << a << " and " << b << endl;
     
     // What is the difference then?
+    // The difference is the precedence
     cout << "a before post and pre increment : " << a << endl;
     cout << "\tpre : " << ++a << "\n\tpost : " << a++ << endl;
     cout << "a after post and pre increment : " << a << endl;
+
+    // Operator precedence
+    // Answers the question "Which operator has to be done before which?"
+    a = 9, b = 3, c = 9, d = 3;
+    bool isEqual = (a % b-- - c / ++d) != (b << int(d) + a ^ (int) c);
+    cout << "Is '(a % b-- - c / ++d) != (b << int(d) + a ^ (int) c)' expression true : " << isEqual << endl;
+    /**
+     * @ref for more on precedence
+     * https://en.cppreference.com/w/cpp/language/operator_precedence
+     */
+
+    // Operators for characters
+    // =================================
+    char letter = 'a' + 1;
+    cout << letter << endl;
     
     return 0;
 }
