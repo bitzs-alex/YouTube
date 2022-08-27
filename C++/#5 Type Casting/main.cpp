@@ -43,6 +43,13 @@ int main() {
     cout << "C style casting : " << (int) a << endl;
     cout << "Function style casting : " << int(a) << endl;
 
+    // Casting in Characters
+    // =====================
+    int number = 'a';
+    cout << number << endl;
+    char character = 98;
+    cout << character << endl;
+
     /**
      * @ref for more on casting
      * https://www.programiz.com/cpp-programming/type-conversion
