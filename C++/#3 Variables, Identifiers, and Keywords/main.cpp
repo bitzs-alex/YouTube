@@ -27,6 +27,8 @@ using namespace std;
  * Identifiers must not start with digits
  * Identifiers in CPP are case sensetive
  * Identifiers must not be preserved keywords
+ * Identifiers can range from 1 to 255 characters
+ * Associating identifiers with their purpose is a good technique to develop
  */
 
 int main() {
@@ -39,8 +41,6 @@ int main() {
 
     /*
     In the above declarations and initializations, the age, sum, and total are valid identifiers.
-    Case sensetivity
-        sum and Sum are complete different identifiers
     Invalid identifiers would be:
         1sum => started with digit
         and => can not be a reserved keyword
@@ -58,10 +58,10 @@ int main() {
     // other types
     bool test = false;
     float salary;
-    char single_character = 'G';  // Notice the single quote here
-    single_character = 'TR';  // Raise a warning but pics the last char
+    char singleCharacter = 'G';  // Notice the single quote here
+    singleCharacter = 'TR';  // Raise a warning but pics the last char
     // testing
-    cout << single_character << endl;
+    cout << singleCharacter << endl;
 
     /*
     Strings are collection of characters.
@@ -79,6 +79,25 @@ int main() {
     job = "another thing";
     cout << job << endl;
     // More on strings on it's own section
+
+    /*
+    Naming Conventions
+    Case sensetivity
+        sum and Sum are complete different identifiers
+    */
+    int twowords;       // flatcase
+    int TWOWORDS;       // UPPERCASE
+    int twoWords;       // camelCase
+    int TwoWords;       // PascalCase
+    int two_words;      // snake_case
+    int TWO_WORDS;      // SCREAMING SNAKE CASE
+    int two_Words;      // camel_Snake_Case
+    int Two_Words;      // Pascal_Snake_Case
+    /**
+     * @ref for more in naming conventions
+     * https://medium.com/wix-engineering/naming-convention-8-basic-rules-for-any-piece-of-code-c4c5f65b0c09
+     * https://en.wikipedia.org/wiki/Naming_convention_(programming)#:~:text=In%20computer%20programming,%20a%20naming,in%20source%20code%20and%20documentation.
+     */
 
     return 0;
 }
