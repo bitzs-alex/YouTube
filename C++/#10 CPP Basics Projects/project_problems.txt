@@ -1,0 +1,21 @@
+1. Sales Prediction
+A company generates 62 percent of total sales. Based on that percentage, write a program that will 
+predict how much the the company will generate if the company has $4.6 million in sales this year.
+Display the result on the screen.
+
+2. Sales Tax
+Write a program that computes the total sales tax on an item purchase. Assume the state sales tax
+is 4 percent and the county sales tax is 2 percent. Display the purchase price, state tax, county
+tax, and total tax amounts on the screen after accepting the price of an item from the console.
+
+3. Restaurant Bill
+Write a program that computes the tax and tip on a restaurant bill for a meal charge inserted
+from the console. The tax should be 6.75 percent of the meal cost. The tip should be 15 percent of
+the total after adding the tax. Display the meal cost, tax amount, tip amount, and total bill on
+the screen.
+
+4. Salary Increase
+Workers at a particular company have won a 7.6% pay increase retroactive for six 
+months. Write a program that takes an employee’s previous annual salary as input 
+and outputs the amount of retroactive pay due the employee, the new annual 
+salary, and the new monthly salary.

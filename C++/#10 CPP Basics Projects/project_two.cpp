@@ -63,5 +63,8 @@ int main() {
 
     // Showing the results
     cout << "The estimate calories you have burnt are : " << calories << " Kcal" << endl;
+
+    // Further expansion
+    // check the inserted values are positive, if not convert them
     return 0;
 }
