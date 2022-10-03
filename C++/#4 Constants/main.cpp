@@ -10,6 +10,7 @@
  */
 
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
@@ -42,6 +43,9 @@ const float PI = 3.14;
  */
 
 int main() {
+	// Initialization
+	// We can't assign value after declaration
+	
     cout << GRAVITY << " and " << PI << endl;
 
     // Won't work, using before defining
@@ -55,6 +59,10 @@ int main() {
 
     // We can't change constants value
     // GRAVITY = 10.0;
+	
+	// Defining our own Macro Constants
+    #define SIGNED_SIZE(x) (pow(2, (sizeof(x) * 8) - 1))
+    #define UNSIGNED_SIZE(x) (pow(2, (sizeof(x) * 8)) - 1)
 
     return 0;
 }

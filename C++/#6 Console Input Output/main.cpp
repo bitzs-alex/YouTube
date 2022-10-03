@@ -74,22 +74,6 @@ int main() {
     // getline(cin, name, 'e');  // getline with delimeter
     // // if delimeter not found, it extracts the whole string
     // cout << "Your full name surly : " << name << endl;
-
-    /**
-     * Escape sequences
-     *  \'	single quote
-     *  \"	double quote
-     *  \?	question mark
-     *  \\	backslash
-     *  \a	audible bell
-     *  \b	backspace
-     *  \f	form feed - new page
-     *  \n	line feed - new line
-     *  \r	carriage return
-     *  \t	horizontal tab
-     *  \v	vertical tab
-     */
-    cout << "My name is\n\t\'" << name << "\'" << endl;
     
     return 0;
 }
