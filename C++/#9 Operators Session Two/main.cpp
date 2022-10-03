@@ -58,6 +58,7 @@ int main() {
     /**
      * for more:
      *  https://en.cppreference.com/w/cpp/language/operator_arithmetic
+     *  https://cplusplus.com/forum/general/78376/
      */
 
     // Increment and Decrement Operators
@@ -94,6 +95,9 @@ int main() {
     cout << letter << endl;
     letter += 2;
     cout << letter << endl;
-    
+    /**
+     * for more:
+     *  https://www.geeksforgeeks.org/character-arithmetic-c-c/
+     */
     return 0;
 }
