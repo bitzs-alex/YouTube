@@ -13,3 +13,6 @@ Here you can find the updated link to each of the videos under the playlist. The
 - Part #2: Structure of C++ Program [link](https://youtu.be/knULqlPy2MY)
 - Part #3: Literals and Data Types in C++ [link](https://youtu.be/CbQG32GEDv8)
 - Part #4: Variables, Identifiers, and Keywords [link](https://youtu.be/mui7dX47rfg)
+- Part #5: Constants [link](https://youtu.be/1coBIpa-93I)
+- Part #6: Type Casting [link](https://youtu.be/z2MejDXZw7Q)
+- Part #7: Console Input and Output [link](https://youtu.be/gXB_TMw3wLE)
