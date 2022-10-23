@@ -40,6 +40,7 @@ int main() {
     // Getting weight input
     cout << "Enter your weight in pounds (lbs) : ";
     cin >> weight;
+	weight *= 2.2;
 
     // Getting running input
     cout << "Enter the time you spent running in minutes : ";
