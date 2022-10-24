@@ -26,9 +26,9 @@ using namespace std;
 
 int main() {
     float rate = 16.78,
-        socialSecurityTaxRate = 0.06,
-        federalIncomeTaxRate = 0.14,
-        stateIncomeTaxRate = 0.05,
+        socialSecurityTaxRate = 6,
+        federalIncomeTaxRate = 14,
+        stateIncomeTaxRate = 5,
         workingHours,
         salary;
     int unionDues = 10,
@@ -47,9 +47,9 @@ int main() {
 
     cout << "\nThe gross salary will be : $" << salary << endl;
 
-    float socialSecurityTax = salary * socialSecurityTaxRate;
-    float federalIncomeTax = salary * federalIncomeTaxRate;
-    float stateIncomeTax = salary * stateIncomeTaxRate;
+    float socialSecurityTax = salary * socialSecurityTaxRate / 100;
+    float federalIncomeTax = salary * federalIncomeTaxRate / 100;
+    float stateIncomeTax = salary * stateIncomeTaxRate / 100;
     float totalDeductedAmount = socialSecurityTax + federalIncomeTax + stateIncomeTax + unionDues + (numberOfDependants >= 3 ? healthInsurance : 0);
     salary -= totalDeductedAmount;
 
