@@ -28,8 +28,8 @@ int main() {
     cin >> bill;
 
     // calculating the tip and tax amount as percentages
-    float tip = bill * tipRate / 100;
     float tax = bill * taxRate / 100;
+    float tip = (bill + tax) * tipRate / 100;
 
     // displaying the results
     cout << "\n\tThe bill amount is: $" << bill << endl;

@@ -16,7 +16,7 @@ using namespace std;
 
 int main() {
     // declaring variables from the description
-    float income_percent = 52,
+    float income_percent = 62,
         company_sales = 4.6;  // company sales can be dynamic (i.e. accept an input from the user)
 
     // calculating the percentage and display it
