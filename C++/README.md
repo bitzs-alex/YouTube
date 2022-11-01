@@ -19,3 +19,5 @@ Here you can find the updated link to each of the videos under the playlist. The
 - Part #8: Escape Sequences [link](https://youtu.be/LOAwqhEu4n4)
 - Part #9: Arithmetic, Assignment, and Comparison Operators [link](https://youtu.be/qwMyFDF7LPo)
 - Part #10: Logical, Bitwise, and Increment/Decrement Operators [link](https://youtu.be/89pgBpScomw)
+- Part #11: Basics of C++ Projects [link](https://youtu.be/FR7wrQqpOyI)
+- Part #12: Solutions to Basics C++ Homework Problems [link](https://youtu.be/8ayztVq9ihg)
