@@ -30,11 +30,16 @@ int main() {
         // statements
     }
     */
-    // bool iAmImmortal = true;
-
+   
+    bool iAmImmortal = true;
     while (iAmImmortal) {
         cout << "I am still alive" << endl;
     } // will end up in infinite loop
+
+    bool iDontGetExecuted = false;
+    while (iDontGetExecuted) {
+        cout << "You will never see this output" << endl;
+    } // this loop will never execute it's block of statements
 
     int counter = 1;
     while (counter <= 5) {

@@ -4,8 +4,10 @@
  * @brief The Switch Statement
  * The switch statements is another selection statement.
  * Switch statements are just like 'if else if' statements but in the switch statement
- *  we only look for exact values rather than range of values like we can do in the 'if else if'
- *  statements.
+ *      we only look for exact values rather than range of values like we can do in the 'if else if'
+ *      statements.
+ * 
+ * Switch statement is just like a real life switch; it has to be either on or off meaning there is no middle element or range
  * 
  * @version 0.1
  * @date 2022-10-31
@@ -26,25 +28,25 @@ int main() {
     switch(age) {
         // in case statements brackets are optional
         case 10: {
-            cout << "Your age is just 10" << endl;
+            cout << "Ohh, you are just 10!" << endl;
             break;
         }
         case 19:
-            cout << "Your age is 19" << endl;
+            cout << "You just turn in to adult, that's awesome!" << endl;
             break;
         default:
-            cout << "I don't know your age" << endl;
+            cout << "I am sorry, I don't know your age" << endl;
             break;
     }
 
     // reason of break statement
     switch(age) {
         case 10:
-            cout << "Your age is just 10" << endl;
+            cout << "Ohh, you are just 10!" << endl;
         case 19:
-            cout << "Your age is 19" << endl;
+            cout << "You just turn in to adult, that's awesome!" << endl;
         default:
-            cout << "I don't know your age" << endl;
+            cout << "I am sorry, I don't know your age" << endl;
     }
 
     // the above statement translate to
