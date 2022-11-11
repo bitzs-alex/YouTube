@@ -21,3 +21,6 @@ Here you can find the updated link to each of the videos under the playlist. The
 - Part #10: Logical, Bitwise, and Increment/Decrement Operators [link](https://youtu.be/89pgBpScomw)
 - Part #11: Basics of C++ Projects [link](https://youtu.be/FR7wrQqpOyI)
 - Part #12: Solutions to Basics C++ Homework Problems [link](https://youtu.be/8ayztVq9ihg)
+- Part #13: If statements [link](https://youtu.be/14MkwzCROew)
+- Part #14: Switch statements [link](https://youtu.be/7ohAsNLhZrU)
+- Part #15: While loops [link](https://youtu.be/9q0PxPbWdw4)
