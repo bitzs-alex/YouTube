@@ -1,7 +1,9 @@
 /**
  * @file main.cpp
  * @author Bitzs Alex (bitzsspace.com)
- * @brief do…while loops are very similar to while loops, except the truth expression is checked at the end of each iteration
+ * @brief The do...while loops
+ * The do...while loops are very similar to while loops
+ * Except the condition checking is done at the end of each iteration
  * The main difference from while loops is that the first iteration of a do…while loop is guaranteed to run always
  * 
  * 
@@ -32,6 +34,12 @@ int main() {
     do {
         cout << "You will see this line exactly once." << endl;
     } while (iDontGetExecuted); // this loop will run exactly one time before the condition fails
+    // if you remember in while loop, we done like
+
+    while (iDontGetExecuted) {
+        cout << "You will never see me." << endl;
+    }
+    // and it didn't get executed even once
 
     int counter = 1;
     do {
