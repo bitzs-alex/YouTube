@@ -52,12 +52,12 @@ int main() {
         cout << "this won't get executed" << endl;
 
     // what does it mean though omitting one or all of the parts in for loop
-    // for (; ;)
-    //     cout << "This will be infinite loop" << endl;
+    for (; ;)
+        cout << "This will be infinite loop" << endl;
 
     // what if we omit the condition
-    // for (int counter = 1; ; counter++)
-    //     cout << counter << endl;
+    for (int counter = 1; ; counter++)
+        cout << counter << endl;
 
     // what happens if we omit the initialization part
     // since we can't work without a variable, we need to have a previously declared variable
@@ -66,8 +66,8 @@ int main() {
 
     // you get the idea, what is going to happen if we omit the update part, right?
     // if not let me show you
-    // for (int counter = 1; counter <= 5; )
-    //     cout << counter  << endl; // infinite loop (since there is no update)
+    for (int counter = 1; counter <= 5; )
+        cout << counter  << endl; // infinite loop (since there is no update)
 
     // we can make it look like while loop
     counter = 1;
