@@ -24,3 +24,8 @@ Here you can find the updated link to each of the videos under the playlist. The
 - Part #13: If statements [link](https://youtu.be/14MkwzCROew)
 - Part #14: Switch statements [link](https://youtu.be/7ohAsNLhZrU)
 - Part #15: While loops [link](https://youtu.be/9q0PxPbWdw4)
+- Part #16: Do..While loops [link](https://youtu.be/jvxvQBC240s)
+- Part #17: For Loops [link](https://youtu.be/oyq5LMmKbRI)
+- Part #18: Nesting Control Flow Structures [link](https://youtu.be/Sijp9RYWgac)
+- Part #19: Break, Continue, and Goto Statements [link](https://youtu.be/SirQhxa6XDU)
+- Part #20: Truthy and Falsey Values [link](https://youtu.be/ewv_VgYrjxc)
