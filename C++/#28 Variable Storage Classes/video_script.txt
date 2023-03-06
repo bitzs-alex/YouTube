@@ -1,0 +1,30 @@
+Start by, what is global variables?
+
+What is the problem of global variables? you ask?
+    => talk about the lifespan and alterablility of their values
+
+Then how can we restrict it? that's where local variables comes into play
+    => talk about local variables
+
+does local variables have a downside?
+    => talk about local variables lifespan and value reinitialization
+
+then how can we preserve the previous values of a local variable? that's what I am going to talk about next
+    => talk about static variables
+
+በቃ ጨርሻለው ሂድ! እንዴ አይደብርክም እንዴ በአንድ አፍ ብለክ ስትሄድ? ባክህ አንድ ያልነገርኩክ ነገር አለ ተረጋጋ
+ምንድነዉ ብለክ አጠይቀኝም? ተዉ ጠይቀኝ ተዉ በናትክ፡ ባጠይቀኝም ነግርካለዉ ባከህ አድምጠኝ
+    => talk about creating two variables at the same scope (both locally and globally)
+
+then what is going to happen, if I create local variables in two different functions?
+    => You know the answer for that, local will always be a local, ካላመንከኝ ግን ላሳይክ
+        => show that it is possible to create two different local variables
+
+then what happens if I create a local variable that is identical to global variable, because of scope?
+    => show that it is possible?
+
+then what happens if I try to access the variable?
+    => show what variable is accessible?
+
+then how can I access the global variable then?
+    => talk about the scope operator
